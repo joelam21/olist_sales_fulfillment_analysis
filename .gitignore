@@ -1,0 +1,17 @@
+# Python/Jupyter
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+
+# Data files
+*.csv
+*.db
+*.sqlite3
+*.zip
+
+# Environment/config files
+.env
+.DS_Store
+
+# VS Code settings (optional)
+.vscode/
