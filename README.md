@@ -23,5 +23,21 @@ This project explores the **Brazilian E-Commerce Public Dataset by Olist** to an
 
 ---
 
+## 📄 SQL Scripts
+
+This project uses a modular SQL script (`sql/olist_customer_seller_revenue_ranked.sql`) to preprocess and enrich the raw Olist dataset. It includes:
+
+- A CTE for customer-seller revenue aggregation
+- Window functions for:
+  - Ranking customers by seller revenue
+  - Calculating total order revenue
+  - Averaging seller review scores
+  - Identifying duplicate reviews per order
+- Joins across all relevant Olist tables
+
+This script prepares a clean dataset for advanced analysis and modeling in the Python notebook.
+
+---
+
 ## 📂 Project Structure
 
