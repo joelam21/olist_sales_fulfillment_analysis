@@ -36,6 +36,7 @@ This project uses a modular SQL script (`sql/olist_customer_seller_revenue_ranke
 - Joins across all relevant Olist tables
 
 This script prepares a clean dataset for advanced analysis and modeling in the Python notebook.
+[📄 View SQL Query](sql/olist_customer_seller_revenue_ranked.sql)
 
 ---
 
